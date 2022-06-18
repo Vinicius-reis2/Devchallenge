@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  font-family: 'Signika Negative', sans-serif;
+  padding: 0;
+  border: none;
+  list-style: none;
+  
+}
+
+* img{
+  height: 300px;
+  width: 350px;
+}
+
+header{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28px;
+ 
+}
+
+header ul{
+  font-size: 28px;
+  display: flex;
+  gap: 70px;
+  list-style: none;
+  cursor: pointer;
+  align-items: center;
+}
+
+header li{
+  transition: 0.7s;
+}
+
+header li:hover{
+  transform: scale(1.2);
+  transition: 0.7s;
+}
+
+.login{
+  background-color: rgb(194, 4, 4);
+  border-radius: 16px;
+  padding: 5px 50px;
+  color: white;
+
+}
+
+.container{
+  margin: 0 20%;
+  
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  margin-top: 180px;
+  gap: 70px;
+}
+
+.flex label{
+  font-size: 18px;
+  color: rgb(36, 35, 35);
+}
+
+.flex h2{
+  font-size: 50px;
+  color: rgb(194, 4, 4);
+}
+
+.negocio{
+  display: flex;
+  flex-direction: column;
+}
+
+.negocio button{
+  border: 1px solid rgb(194, 4, 4);
+  border-radius: 12px;
+  padding: 12px 30px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(194, 4, 4);
+  cursor: pointer;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  margin-top: 180px;
+}
+
+.vantagens{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.vantagens img{
+  height: 30px;
+  width: 30px;
+}
+
+.vantagens span{
+  font-size: 18px;
+}
+
+form p{
+  font-size: 22px;
+}
+
+.numero {
+  margin-top: 16px;
+  padding: 12px 48px;
+  border-radius: 8px;
+  background-color: rgb(174, 174, 174);
+  color: white;
+  font-size: 18px;
+}
+
+form button{
+  padding: 12px 10px;
+  border-radius: 8px;
+  background-color: rgb(194, 4, 4);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.flex3{
+  display: flex;
+  gap: 50px;
+  margin-top: 280px
+}
+
+.blocos{
+  padding: 15px 10px;
+  display: flex;
+  background-color: rgb(220,220,220);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.blocos img{
+  height: 60px;
+  width: 60px;
+}
+
+.blocosint{
+  display: flex;
+  flex-direction: column;
+}
+
+.nome{
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.empresa{
+  font-size: 16px;
+}
+
+footer{
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 150px;
+  margin-top: 150px;
+}
+
+.container2{
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+}
+
+.container2 h3{
+  font-size: 34px;
+}
+
+
